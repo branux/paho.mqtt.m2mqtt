@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2Mqtt.Net", "M2Mqtt\M2Mqtt.Net.csproj", "{A11AEF5A-B246-4FE8-8330-06DB73CC8074}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2Mqtt.NetCf39", "M2Mqtt\M2Mqtt.NetCf39.csproj", "{BB9B7FF4-6502-41AF-8851-5060B67645E8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2Mqtt.NetMf42", "M2Mqtt\M2Mqtt.NetMf42.csproj", "{F733523A-F14E-4F5A-9E7C-085CA80F52B1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2Mqtt.NetMf43", "M2Mqtt\M2Mqtt.NetMf43.csproj", "{6A6D540B-8554-4FFD-8884-8BEFCCD9AD41}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2Mqtt.WinRT", "M2Mqtt\M2Mqtt.WinRT.csproj", "{0238F0E3-A02B-428D-8A3F-410D8F15BB50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2Mqtt.Mono", "M2Mqtt\M2Mqtt.Mono.csproj", "{9B706DEC-4CE7-4764-BDBE-8A5F855E5857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2MqttDroidIos", "M2Mqtt\M2MqttDroidIos.csproj", "{8A950E21-26E3-456B-9DF2-3C5123EF9840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2Mqtt.Droid", "M2Mqtt\M2Mqtt.Droid.csproj", "{BD067981-2E22-4D39-B4C3-D76005E3BC14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,24 +23,22 @@ Global
 		{A11AEF5A-B246-4FE8-8330-06DB73CC8074}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A11AEF5A-B246-4FE8-8330-06DB73CC8074}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A11AEF5A-B246-4FE8-8330-06DB73CC8074}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BB9B7FF4-6502-41AF-8851-5060B67645E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB9B7FF4-6502-41AF-8851-5060B67645E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB9B7FF4-6502-41AF-8851-5060B67645E8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{BB9B7FF4-6502-41AF-8851-5060B67645E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB9B7FF4-6502-41AF-8851-5060B67645E8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BB9B7FF4-6502-41AF-8851-5060B67645E8}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{F733523A-F14E-4F5A-9E7C-085CA80F52B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F733523A-F14E-4F5A-9E7C-085CA80F52B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F733523A-F14E-4F5A-9E7C-085CA80F52B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F733523A-F14E-4F5A-9E7C-085CA80F52B1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6A6D540B-8554-4FFD-8884-8BEFCCD9AD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A6D540B-8554-4FFD-8884-8BEFCCD9AD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A6D540B-8554-4FFD-8884-8BEFCCD9AD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A6D540B-8554-4FFD-8884-8BEFCCD9AD41}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0238F0E3-A02B-428D-8A3F-410D8F15BB50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0238F0E3-A02B-428D-8A3F-410D8F15BB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0238F0E3-A02B-428D-8A3F-410D8F15BB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0238F0E3-A02B-428D-8A3F-410D8F15BB50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B706DEC-4CE7-4764-BDBE-8A5F855E5857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B706DEC-4CE7-4764-BDBE-8A5F855E5857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B706DEC-4CE7-4764-BDBE-8A5F855E5857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B706DEC-4CE7-4764-BDBE-8A5F855E5857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A950E21-26E3-456B-9DF2-3C5123EF9840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A950E21-26E3-456B-9DF2-3C5123EF9840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A950E21-26E3-456B-9DF2-3C5123EF9840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A950E21-26E3-456B-9DF2-3C5123EF9840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD067981-2E22-4D39-B4C3-D76005E3BC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD067981-2E22-4D39-B4C3-D76005E3BC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD067981-2E22-4D39-B4C3-D76005E3BC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD067981-2E22-4D39-B4C3-D76005E3BC14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
